@@ -15,7 +15,7 @@ var App = React.createClass({
 	render: function() {
 		return(
 			<main>
-				<h1>HEY THERE BIG {this.state.greet}!</h1>
+				<h1>HEY THERE BIG <em>{this.state.greet}</em>!</h1>
 				<GreetForm save={this.updateName} buttonTxt='How are you?'/>
 				<h2>Who have you said hi to?</h2>
 				<NameList data={this.props.names}/>

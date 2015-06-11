@@ -22,6 +22,10 @@ h1 {
   font-size: 40px;
 }
 
+h1 em {
+  color: #FFFF66;
+}
+
 h2 {
   color: #66FF99;
   text-transform: uppercase;
