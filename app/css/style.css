@@ -1,5 +1,12 @@
+article {
+  width: 100%;
+}
+
 main {
-	margin-left: 40%;
+	/*margin-left: 35%;*/
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: sans-serif;
 }
 
@@ -12,9 +19,21 @@ body {
 
 h1 {
 	color: white;
+  font-size: 40px;
+}
+
+h2 {
+  color: #66FF99;
+  text-transform: uppercase;
 }
 
 ul {
   padding: 0;
   list-style-type: none;
+}
+
+li {
+  color: #99FFCC;
+  font-size: 15;
+  text-transform: uppercase;
 }
