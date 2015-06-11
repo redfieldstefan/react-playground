@@ -8,8 +8,6 @@ var App = React.createClass({
 	updateName: function(newGreet) {
 		this.props.names.push(newGreet);
 		this.setState({greet: newGreet});
-		this.notifyComponents()
-		console.log(this.props.names);
 	},
 	getInitialState: function() {
     return {greet: "YOU"};
@@ -19,6 +17,7 @@ var App = React.createClass({
 			<main>
 				<h1>HEY THERE BIG {this.state.greet}!</h1>
 				<GreetForm save={this.updateName} buttonTxt='How are you?'/>
+				<h2>Who have you said hi to?</h2>
 				<NameList data={this.props.names}/>
 			</main>
 		);
